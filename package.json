@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Strange-LUCK-luck/zre-node/issues"
   },
-  "homepage": "https://github.com/Strange-LUCK-luck/zre-node#readme"
+  "homepage": "https://github.com/Strange-LUCK-luck/zre-node#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "koa": "^3.0.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "mysql2": "^3.14.1",
+    "sm-crypto": "^0.3.13"
+  }
 }
