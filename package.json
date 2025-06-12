@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-node",
+  "version": "1.0.0",
+  "description": "vuepress的后台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strange-LUCK-luck/zre-node.git"
+  },
+  "author": "zre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strange-LUCK-luck/zre-node/issues"
+  },
+  "homepage": "https://github.com/Strange-LUCK-luck/zre-node#readme"
+}
