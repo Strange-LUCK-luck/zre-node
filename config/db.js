@@ -1,10 +1,16 @@
 const { Sequelize } = require('sequelize');
-
+const {
+    DB_HOST = '119.23.153.64',
+    DB_USER = 'zre_dev',
+    DB_PASSWORD = 'Zre@123456',
+    DB_NAME = 'personal',
+    DB_PORT = 3306
+} = process.env
 // 初始化 Sequelize 实例
-const sequelize = new Sequelize('personal', 'zre_dev', 'Zre@123456', {
-    host: '119.23.153.64',
+const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
+    host: DB_HOST,
     dialect: 'mysql',
-    port: 3306,  // 默认 MySQL 端口，如果使用其他端口需要替换
+    port: DB_PORT,  // 默认 MySQL 端口，如果使用其他端口需要替换
     logging: false,  // 禁用日志输出
 });
 
